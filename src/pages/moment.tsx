@@ -1,7 +1,7 @@
 import {useEffect} from "react";
 import moment from 'moment';
 
-const First = (): JSX.Element => {
+const Moment = (): JSX.Element => {
 
     useEffect(()=>{
         //moment() 返回类型为 Moment
@@ -18,4 +18,4 @@ const First = (): JSX.Element => {
     )
 }
 
-export default First;
+export default Moment;

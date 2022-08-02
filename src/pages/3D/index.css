@@ -1,0 +1,66 @@
+.parameterRegulator {
+    position: absolute;
+    top:10px;
+    right:10px;
+    width:260px;
+}
+
+.iconStyle {
+    float: right;
+    line-height: 20px !important;
+}
+
+.marginLeft8 {
+    margin-left: 8px;
+}
+
+.ant-collapse {
+    background: #252627 !important;
+    border: #252627 !important;
+    height:50px !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    color:#FFFFFF !important;
+    line-height: 34px !important;
+}
+
+.ant-collapse-icon-position-end > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    right:18px !important;
+}
+
+.ant-collapse-content {
+    color: #FFFFFF !important;
+    background: #252627 !important;
+    border: #252627 !important;
+}
+
+.ant-collapse > .ant-collapse-item {
+    border: #252627 !important;
+}
+
+.ant-form-item {
+    margin-bottom: 10px !important;
+}
+
+.ant-form-item-label > label {
+    color: #FFFFFF !important;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: #3F4143 !important;
+    border:#3F4143 !important;
+}
+
+.ant-checkbox-inner,.ant-input,.ant-input-number {
+    background: #3F4143 !important;
+    border:#3F4143 !important;
+}
+
+.ant-select,.ant-input,input {
+    color:#FFFFFF !important;
+}
+
+.ant-input-number-handler:active {
+    background-color: #3F4143 !important;
+}

@@ -7,7 +7,7 @@ const Default = (): JSX.Element => {
     return (
         <div>
             <Space>
-                <Button onClick={() => navigate('/first')} type={'primary'}>First</Button>
+                <Button onClick={() => navigate('/moment')} type={'primary'}>First</Button>
                 <Button onClick={() => navigate('/validator')} type={'primary'}>Validator</Button>
             </Space>
         </div>

@@ -6,7 +6,9 @@ import {BrowserRouter} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { ConfigProvider} from 'antd';
 import zhCN from 'antd/lib/locale/zh_CN';
+// import 'antd/dist/antd.dark.css';
 import 'antd/dist/antd.css';
+import 'antd/dist/antd.compact.css'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
