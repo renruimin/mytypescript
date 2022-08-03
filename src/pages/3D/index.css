@@ -3,6 +3,7 @@
     top:10px;
     right:10px;
     width:260px;
+    user-select: none;
 }
 
 .iconStyle {
@@ -63,4 +64,51 @@
 
 .ant-input-number-handler:active {
     background-color: #3F4143 !important;
+}
+
+/*滑块样式start*/
+.ant-slider {
+    margin: 0 !important;
+    background-color: #3F4143 !important;
+    height: 26px !important;
+    padding: 0 !important;
+}
+
+.ant-slider-track {
+    height: 26px !important;
+    background-color: #586BFB !important;
+}
+
+.ant-slider-rail {
+    background-color: #3F4143 !important;
+}
+
+.ant-slider-handle {
+    display: none;
+}
+/*滑块样式end*/
+
+
+/*select样式start*/
+.ant-select-dropdown {
+    background: #252627 !important;
+}
+
+.ant-select-item {
+    color: white !important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: #3F4143 !important;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #3F4143 !important;
+}
+/*select样式end*/
+
+.react-colorful {
+    position: absolute !important;
+    z-index: 1;
+    width: 152px !important;
+    height: 152px !important;
 }
