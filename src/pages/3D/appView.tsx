@@ -2,7 +2,7 @@ import React, {useEffect, useLayoutEffect, useState} from 'react';
 import {Collapse} from 'antd';
 import {DownOutlined, UpOutlined} from '@ant-design/icons';
 import ParameterForm from './parameterForm'
-import './index.css'
+import './index.less'
 import * as THREE from "three";
 
 const AppView = () => {

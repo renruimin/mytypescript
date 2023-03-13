@@ -152,7 +152,7 @@ const ParameterForm = () => {
                                 style={{width: '42px', background: '#3F4143 !important'}}
                                 step={0.01}
                                 value={inputValue}
-                                onChange={onChange}
+                                onChange={(value)=>onChange}
                             />
                         </Col>
                     </Row>
@@ -189,7 +189,7 @@ const ParameterForm = () => {
                                 style={{width: '42px', background: '#3F4143 !important'}}
                                 step={0.01}
                                 value={inputValueAmbient}
-                                onChange={onChangeAmbient}
+                                onChange={(value)=>onChangeAmbient}
                             />
                         </Col>
                     </Row>
